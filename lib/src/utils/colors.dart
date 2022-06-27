@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-var mainColor = const Color.fromARGB(255, 0, 26, 130);
-var secondColor = const Color.fromARGB(255, 68, 118, 244);
-var thirdColor = const Color.fromARGB(255, 45, 67, 111);
-var thirdColorWithWhite = const Color.fromARGB(255, 174, 255, 237);
+var mainColor = const Color(0xFF142851);
+var secondColor = const Color(0xFF11132B);
+var thirdColor = const Color(0xFFC90B1E);
+var thirdColorWithWhite = const Color(0xFF2196F3);
 
 var blue = const Color(0xFF2196F3);
 var red = const Color(0xFFF44336);

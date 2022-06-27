@@ -1,20 +1,10 @@
-import 'package:flutter/material.dart';
-import 'package:template/src/pages/home.dart';
+class Strings {
+  //GENERAL
+  String ok = "Ok";
+  String search = "Procurar";
+  String not_found = "Não encontrado";
 
-final appRoutes = {
-  '/': (context) => HomePage(),
-};
-
-//FUNCTIONS
-class Routes {
-  simple(context, String route) {
-    return Navigator.pushNamed(context, route);
-  }
-
-  constructed(context, Widget route) {
-    return Navigator.push(
-      context,
-      MaterialPageRoute(builder: (context) => route),
-    );
-  }
+  //
+  String insert_gas_price = 'Insira o preço dos combustíveis';
+  String fill_fields = 'Preencha todos os campos abaixo';
 }

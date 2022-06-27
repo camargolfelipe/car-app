@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:template/src/utils/strings.dart';
+import 'package:template/src/utils/routes.dart';
 
 main() async {
   await GetStorage.init();
